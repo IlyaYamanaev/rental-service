@@ -89,3 +89,4 @@ Offer.init({
 Offer.belongsTo(User, { as: 'author', foreignKey: 'authorId' });
 
 export { Offer };
+
